@@ -102,8 +102,7 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 
 [![NeKosmic-NK](https://github.com/NeKosmic-NK.png?size=100)](https://github.com/NeKosmic-NK) 
 [![Misaelsharkbot](https://github.com/Misaelsharkbot.png?size=100)](https://github.com/Misaelsharkbot)
-[![Skidy89](https://github.com/Skidy89)](https://github.com/Skidy89)
-  [![kinisawadev](https://github.com/KenisawaDev.png?size=100)](https://github.com/KenisawaDev)
+  [![Skidy89](https://github.com/Skidy89.png?size=100)](https://github.com/Skidy89)
 
 # `👑Creador del BOT👑`
   
