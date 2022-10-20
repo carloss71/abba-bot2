@@ -69,7 +69,7 @@ https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 
 ## `Clone Repo & Instalación`
 ```bash
-git clone https://github.com/elrebelde21/Novabot-MD-
+git clone https://github.com/elrebelde21/Novabot-MD
 cd Novabot-MD 
 
 npm start
