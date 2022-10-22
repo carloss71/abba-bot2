@@ -304,6 +304,12 @@ XeonBotInc.sendMessage(m.chat, { text :teks, }, {quoted: m, thumbnail: fs.readFi
 
 //FAKE CONTACT
 const fkontak = { key: {participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: `916909137213 -1614953337@g.us` } : {}) }, message: { 'contactMessage': { 'displayName': `${pushname}`, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${pushname},;;;\nFN:${pushname},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Click to chat\nEND:VCARD`, 'jpegThumbnail': thumb, thumbnail: thumb,sendEphemeral: true}}}
+//FAKEREPLY BY SKID
+const faud = {"key": { fromMe: false,
+participant: `0@s.whatsapp.net`, ...(from ?
+{ remoteJid: "status@broadcast" } : {}) },
+message: { "audioMessage": {"mimetype": "audio/mp4", "ptt": true, "seconds": 9999999}}
+}
 //FAKEREPLY PRODUCT
 const ftoko = {
 key: {
@@ -358,6 +364,7 @@ jpegThumbnail: log0
 }
 }
 }
+
 //FAKEREPLY DOCUMENT
 const fdocs = {
 key : {
@@ -1434,6 +1441,26 @@ if (isBanChat) return reply(mess.banChat)
  }
  break
 
+case 'temporizador':        
+ 	if (isBan) return reply(mess.ban)	 			
+if (isBanChat) return reply(mess.banChat)
+if (args[1] == "segundos") {
+
+var timer = args[0] + "000"
+} else if (args[1] == "minutos") {
+var timer = args[0] + "0000"
+} else if (args[1] == "horas") {
+var timer = args[0] + "00000"
+} else {
+return enviar("Porfavor eliga entre: \nsegundos\nminutos\nhoras\n\nEjemplo: =timer 30 segundos")
+}
+addFilter(from)
+enviar(`*⏰Se ajusto su cronometro a ${q}*`)
+setTimeout(() => {
+enviar(`⏰El tiempo de *${q}* a finalizado!`)
+}, timer)
+addFilter(from)
+break
  case 'heal': case 'curar':{
  	if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
