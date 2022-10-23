@@ -31,6 +31,7 @@ let { covid } = require('./lib/covid.js')
 const { EmojiAPI } = require("emoji-api")
 const emoji = new EmojiAPI()
 const thiccysapi = require('textmaker-thiccy')
+const TD = require('better-tord');
 const { XeonBotIncWiki } = require('./lib/xeonywiki.js')
 const textpro = require('./lib/textpro')
 const { mediafireDl } = require('./lib/mediafire.js')
@@ -2055,195 +2056,19 @@ XeonBotInc.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${s
                     await XeonBotInc.sendButtonText(m.chat, buttons, jawab, botname, m, {mentions: ments})
             }
             break
-case 'reto':
-                   if (isBan) return reply(mess.ban)
-	if (isBanChat) return reply(mess.banChat)
-              const dare =[
-    "comer 2 cucharadas de arroz sin guarniciones, si se está arrastrando se puede beber",
-    "derrama gente que te hace pausar",
-    "llama a crush/pickle ahora y envía ss",
-    "soltar solo emoticón cada vez que escribes en gc/pc durante 1 día.",
-    "di ¡Bienvenido a Quién Quiere Ser Millonario! a todos los grupos que tengas",
-    "llamar ex diciendo señorita",
-    "canta el coro de la última canción que tocaste",
-    "vn tu ex/crush/novia, dice hola (nombre), quiere llamar, solo un momento. Extraño🥺👉🏼👈🏼",
-    "Golpea la mesa (que está en casa) hasta que te regañen por hacer ruido",
-    "Dile a la gente al azar _Me acaban de decir que primero era tu gemelo, nos separamos, luego me hice una cirugía plástica. Y esto es lo más ciyusss_",
-    "menciona el nombre de tu ex",
-    "¡haz 1 rima para los miembros!",
-    "envía tu lista de chat de whatsapp",
-    "Chatea con personas al azar con lenguaje gheto y luego ss aquí",
-    "cuenta tu propia versión de las cosas vergonzosas",
-    "etiqueta a la persona que odias",
-    "Fingir estar poseído, por ejemplo: poseído por perro, poseído por saltamontes, poseído por refrigerador, etc.",
-    "cambiar nombre a *SOY BURRO* por 24 horas",
-    "grita *ma chuda ma chuda ma chuda* frente a tu casa",
-    "snap/post novio foto/crush",
-    "¡dime tu tipo de novio!",
-    "Di *estoy enamorado de ti, ¿quieres ser mi novia?* al sexo opuesto, la última vez que chateaste (enviar por wa/tele), espera a que te responda, si es así, déjalo aquí",
-    "graba tu voz que diga *titar ke age do titar, titar ke piche do titar*",
-    "bromea con tu ex y di *te amo, por favor vuelve* ¡sin decir atrévete!",
-    "chatea para contactar a wa en el orden de acuerdo a tu % de batería, luego dile *¡tengo suerte de tenerte!*",
-    "cambiar el nombre a *soy hijo de randi* por 5 horas",
-    "escriba en bengalí las 24 horas",
-    "Usar la foto de selmon bhoi durante 3 días",
-    "suelte una cita de una canción y luego etiquete a un miembro adecuado para esa cita",
-    "enviar una nota de voz diciendo ¿puedo llamarte bebé?",
-    "ss llamada reciente whatsapp",
-    "¡Di *ERES TAN HERMOSO, NO MIENTEN* a los chicos!",
-    "abre a un miembro del grupo y dile que te jodan",
-    "Actúa como una gallina delante de tus padres",
-    "Toma un libro al azar y lee una página en voz alta en vn y envíalo aquí",
-    "Abre la puerta de tu casa y aúlla como un lobo durante 10 segundos",
-    "Tómate una selfie vergonzosa y pégala en tu foto de perfil",
-    "Que el grupo elija una palabra y una canción conocida. Tienes que cantar esa canción y enviarla en nota de voz",
-    "Camina sobre tus codos y rodillas todo el tiempo que puedas",
-    "cantar himno nacional en nota de voz",
-    "Breakdance durante 30 segundos en el salón😂",
-    "Cuéntame la historia más triste que conozcas",
-    "haz un video de baile twerk y ponlo en estado durante 5 minutos",
-    "Comer un trozo de ajo crudo",
-    "Muestre las últimas cinco personas a las que envió mensajes de texto y lo que decían los mensajes",
-    "ponga su nombre completo en el estado durante 5 horas",
-    "haz un video de baile corto sin ningún filtro solo con música y ponlo en tu estado durante 5 horas",
-    "Llama a tu mejor amiga, perra",
-    "pon tu foto sin filtro en tu estado durante 10 minutos",
-    "di que amo a oli london en nota de voz🤣🤣",
-    "Envíale un mensaje a tu ex y dile que todavía me gustas",
-    "Llama a Crush/novia/bestie ahora y haz una captura de pantalla aquí",
-    "Accede al chat personal de uno de los miembros del grupo y di tu avutarda fea",
-    "dile ERES HERMOSO/GUAPO a una de las personas que está en la parte superior de tu lista de favoritos o la primera persona en tu lista de chat",
-    "Envía notas de voz y di, ¿puedo llamarte bebé? Si eres chico, etiqueta a la chica/si la chica etiqueta al chico",
-    "escriba te amo (nombre del miembro del grupo al azar, que está en línea) en el chat personal, (si eres chico escribe el nombre de la chica/si la chica escribe el nombre del chico) toma una foto de la foto y envíala aquí",
-    "usa cualquier foto de un actor de Bollywood como tu pfp durante 3 días",
-    "pon la foto de tu enamorado en el estado con el título, este es mi enamorado",
-    "cambio de nombre a SOY GAY durante 5 horas",
-    "chatea con cualquier contacto en whatsapp y di que seré tu novio/novia durante 5 horas",
-    "enviar una nota de voz que diga que estoy enamorado de ti, ¿quieres ser mi novia/novio o no? a cualquier persona aleatoria del grupo (si eres una chica, elige un chico, si un chico elige una chica",
-    "Golpea tu trasero apenas envía el sonido de una bofetada a través de la nota de voz😂",
-    "indique su tipo de novia/novia y envíe la foto aquí con el título, la niña/niño más feo del mundo",
-    "grita bravooooooooo y envía aquí a través de nota de voz",
-    "toma tu cara y envíala aquí",
-    "Envía tu foto con un pie de foto, soy lesbiana",
-    "gritar usando palabras duras y enviarlo aquí a través de vn",
-    "grita cabrón delante de tu mamá/papá",
-    "cambiar el nombre a soy idiota por 24 horas",
-    "golpéate con firmeza y envía el sonido de la bofetada a través de la nota de voz😂",
-    "di que amo al propietario del bot xeon a través de una nota de voz",
-    "envía la foto de tu novia/novia aquí",
-    "haga cualquier video de desafío de baile tiktok y póngalo en estado, puede eliminarlo después de 5 horas",
-    "rompe con tu mejor amigo durante 5 horas sin decirle que es un reto",
-     "dile a uno de tus amigos que lo amas y que quieres casarte con él/ella, sin decirle que es un desafío",
-     "di que amo a depak kalal a través de una nota de voz",
-     "Escriba Me siento cachondo y póngalo en estado, puede eliminarlo solo después de 5 horas",
-     "escriba soy lesbiana y póngalo en estado, puede eliminarlo solo después de 5 horas",
-     "besa a tu mami o a tu papa y di te amo😌",
-     "ponga el nombre de su padre en el estado durante 5 horas",
-     "envíe palabras abusivas en cualquier grupo, excepto en este grupo, y envíe una prueba de captura de pantalla aquí"
-]
-              const xeondare = dare[Math.floor(Math.random() * dare.length)]
-              buffer = await getBuffer(`https://i.ibb.co/gzfDZLv/unnamed.jpg`)
-              XeonBotInc.sendMessage(from, { image: buffer, caption: '𝘏𝘢𝘴 𝘦𝘴𝘤𝘰𝘨𝘪𝘥𝘰 *𝘙𝘌𝘛𝘖*\n'+ xeondare }, {quoted:m})
-              break
-                            break
-       case 'verdad':
-       if (isBan) return reply(mess.ban)
-	if (isBanChat) return reply(mess.banChat)
-              const truth =[
-    "¿Alguna vez te ha gustado alguien? ¿Cuánto tiempo?",
-    "Si puedes o si quieres, ¿de qué gc/gc externo te harías amigo? (tal vez diferente/del mismo tipo)",
-    "apa ketakutan terbesar kamu?",
-    "¿Alguna vez te ha gustado alguien y has sentido que a esa persona también le gustas?",
-    "¿Cómo se llama la ex novia de tu amigo que te gustaba en secreto?",
-    "¿Alguna vez le has robado dinero a tu padre o a tu madre? ¿La razón?",
-    "¿Qué te hace feliz cuando estás triste?",
-    "¿Alguna vez has tenido un amor unilateral? Si es así, ¿quién? ¿Cómo se siente hermano?",
-    "¿Ha sido la amante de alguien?",
-    "lo más temido",
-    "¿Quién es la persona más influyente en tu vida?",
-    "que cosa orgullosa obtuviste este año",
-    "¿Quién es la persona que puede hacerte increíble?",
-    "¿Quién es la persona que alguna vez te ha hecho muy feliz?",
-    "¿Quién se acerca más a tu tipo de pareja ideal aquí?",
-    "¿Con quién te gusta jugar??",
-    "¿Alguna vez has rechazado a la gente? ¿Por qué?",
-    "Menciona un incidente que te hizo daño que aún recuerdas",
-    "¿Qué logros has obtenido este año??",
-    "¿Cuál es tu peor hábito en la escuela??",
-    "¿Qué canción cantas más en la ducha?",
-    "¿Alguna vez has tenido una experiencia cercana a la muerte?",
-    "¿Cuándo fue la última vez que estuviste realmente enojado? ¿Por qué?",
-    "¿Quién es la última persona que te llamó?",
-    "¿Tienes algún talento oculto? ¿Cuáles son?",
-    "¿Qué palabra odias más?",
-    "¿Cuál es el último video de YouTube que viste?",
-    "¿Qué es lo último que buscaste en Google?",
-    "¿Con quién de este grupo te gustaría intercambiar vidas durante una semana?",
-    "¿Qué es lo más aterrador que te ha pasado?",
-    "¿Alguna vez te tiraste un pedo y le echaste la culpa a otra persona?",
-    "¿Cuándo fue la última vez que hiciste llorar a otra persona?",
-    "¿Alguna vez has engañado a un amigo?",
-    "¿Alguna vez has visto un cadáver?",
-    "¿Cuál de los miembros de tu familia te molesta más y por qué?",
-    "Si tuvieras que eliminar una aplicación de tu teléfono, cuál sería",
-    "¿En qué aplicación pierdes más tiempo?",
-    "¿Alguna vez has fingido estar enfermo para llegar a casa de la escuela?",
-    "¿Cuál es el artículo más vergonzoso en tu habitación?",
-    "¿Qué cinco artículos traerías si te quedaras atrapado en una isla desierta?",
-    "¿Alguna vez te has reído tanto que te orinaste en los pantalones?",
-    "¿Hueles tus propios pedos?",
-    "¿alguna vez has orinado en la cama mientras dormías? ðŸ¤£ðŸ¤£",
-    "¿Cuál es el mayor error que has cometido?",
-    "¿Alguna vez has hecho trampa en un examen?",
-    "¿Qué es lo peor que has hecho?",
-    "Cuándo fue la última vez que lloraste",
-    "¿A quién amas más entre tus padres?",
-    "¿A veces te metes el dedo en la nariz? ðŸ¤£",
-    "¿Quién era tu crush durante los días de escuela?",
-    "Dime honestamente, ¿te gusta algún chico de este grupo?",
-    "¿Alguna vez te ha gustado alguien? ¿Cuánto tiempo?",
-    "¿tienes novia/novia?", "¿cuál es tu mayor miedo?",
-    "¿Alguna vez te ha gustado alguien y has sentido que a esa persona también le gustas?",
-    "¿Cómo se llama el ex novio de tu amiga que alguna vez te gustó en silencio?",
-    "Alguna vez robaste el dinero de tu madre o el dinero de tu padre",
-    "que te hace feliz cuando estas triste",
-    "¿te gusta alguien que está en este grupo? si tú entonces quién?",
-    "¿alguna vez has sido engañado por la gente?",
-    "quien es la persona mas importante en tu vida",
-    "que cosas orgullosas obtuviste este año",
-    "¿Quién es la persona que puede hacerte feliz cuando estás triste?",
-    "¿Quién es la persona que alguna vez te hizo sentir incómodo?",
-    "¿alguna vez le has mentido a tus padres?",
-    "¿Aún te gusta tu ex?",
-    "¿Con quién te gusta jugar?",
-    "¿Alguna vez has robado algo grande en tu vida? ¿Por qué?",
-    "Menciona el incidente que te hace daño que aún recuerdas",
-    "¿Qué logros has obtenido este año?",
-    "¿Cuál era tu peor hábito en la escuela?",
-    "¿Amas al creador del bot, xeon?ðŸ¦„",
-    "¿alguna vez has pensado en vengarte de tu maestro?",
-    "¿te gusta el actual primer ministro de tu país?",
-    "no eres vegetariano o vegetariano",
-    "si pudieras ser invisible, que es lo primero que harias",
-    "¿Qué es un secreto que le ocultaste a tus padres?",
-    "Quien es tu amor secreto",
-    "¿Quién es la última persona a la que arrastraste en las redes sociales?",
-    "Si un genio te concediera tres deseos, ¿qué le pedirías?",
-    "¿Cuál es tu mayor arrepentimiento?",
-    "¿A qué animal crees que te pareces más?",
-    "¿Cuántas selfies te tomas al día?",
-    "¿Cuál era tu programa favorito de la infancia?",
-    "Si pudieras ser un personaje ficticio por un día, a quién elegirías",
-    "¿A quién le envías más mensajes de texto?",
-    "¿Cuál es la mentira más grande que le has dicho a tus padres?",
-    "Quien es tu celebridad favorita",
-    "¿Cuál es el sueño más extraño que has tenido?",
-    "¿Juegas pubg, si luego envías tu número de identificación?"
-]
-              const xeontruth = truth[Math.floor(Math.random() * truth.length)]
-              buffer = await getBuffer(`https://i.ibb.co/gzfDZLv/unnamed.jpg`)
-              XeonBotInc.sendMessage(from, { image: buffer, caption: '𝘏𝘢𝘴 𝘦𝘴𝘤𝘰𝘨𝘪𝘥𝘰 *𝘝𝘌𝘙𝘋𝘈𝘋*\n'+ xeontruth }, {quoted:m})
-              break
+	//by CarlosTwT
+    case "reto": {
+        let dare = TD.get_dare();
+        const xrt = await fetchJson(`https://api.popcat.xyz/translate?to=es&text=${dare}`)
+        reply(xrt.translated);
+    }
+    break
+    case "verdad": {
+        let truth = TD.get_truth();
+        const txt = await fetchJson(`https://api.popcat.xyz/translate?to=es&text=${truth}`)
+        reply(txt.translated);
+    }
+    break
 case 'when':
 if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
