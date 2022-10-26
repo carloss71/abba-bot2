@@ -1,59 +1,22 @@
 # `👑 𝙱𝙾𝚃 𝙴𝙽 𝙳𝙴𝚂𝙰𝚁𝚁𝙾𝙻𝙻𝙾 👑`
 <p align="center"> 
-  <a href="https://github.com/NeKosmic-NK"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=17&duration=4000&color=F7B11B&center=falso&vCenter=falso&lines=NOVA-BOT-MD++%F0%9F%92%96;Gracias+por+visitar+este+repositorio.+%F0%9F%92%96" height="90px"
+  <a href="https://github.com/NeKosmic-NK"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=17&duration=4000&color=F7B11B&center=falso&vCenter=falso&lines=Abba-Bot++%F0%9F%92%96;Gracias+por+visitar+este+repositorio.+%F0%9F%92%96" height="90px"
 </p>
-
--------
-
-### `—◉ 👑 DUDAS SOBRE EL BOT?, CONTACTAME 👑`
-<p align="center">
-<a href="https://github.com/NeKosmic-NK"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=14&duration=3000&color=ABF7BB&center=verdadero&vCenter=verdadero&lines=Solo+escr%C3%ADba+si+tiene+dudas." height="40px"
-</p>
-    
-<a href="http://wa.me/5492266466080" target="blank"><img src="https://img.shields.io/badge/Creador-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
-<a href="http://wa.me/51935116539" target="blank"><img src="https://img.shields.io/badge/Misael-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
-<a href="http://wa.me/528442114446" target="blank"><img src="https://img.shields.io/badge/Skid-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
-
-> NO BOT
-  
-[![blog](https://img.shields.io/badge/Grupo-Soporte-25D366?style=for-the-badge&logo=whatsapp&logoColor=white 
-)](https://chat.whatsapp.com/Byyrc8RJnUkJw6vvUgsbDF)  <a href="https://chat.whatsapp.com/Byyrc8RJnUkJw6vvUgsbDF"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/WhatsApp_logo-color-vertical.svg/1200px-WhatsApp_logo-color-vertical.svg.png" height="29px"></a>
-
- <p align="hihg">   
-<a href="https://t.me/+jDafTNrAOmQ5MGEx" target="_blank"> <img src="https://img.shields.io/badge/-Telegram-%23E4405F?style=for-the-badge&logo=telegram&logoColor=blue" target="_blank"></a> <img src="https://github.com/siegrin/siegrin/blob/main/Assets/Handshake.gif" height="30px">
-
-<p align="hihg">   
-<a href="https://instagram.com/nekosmic.nk" target="_blank"> <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=yellow" target="_blank"></a> <img src="https://github.com/siegrin/siegrin/blob/main/Assets/Handshake.gif" height="30px">
-  
- <p align="hihg">   
-<a href="https://vm.tiktok.com/ZMNmKcFYr/" target="_blank"> <img src="https://img.shields.io/badge/-TikTok-%23E4405F?style=for-the-badge&logo=tiktok&logoColor=black" target="_blank"></a> <img src="https://github.com/siegrin/siegrin/blob/main/Assets/Handshake.gif" height="30px">
-
- <p align="hihg">   
-<a href="https://facebook.com/groups/721802642266362" target="_blank"> <img src="https://img.shields.io/badge/-Facebook-%23E4405F?style=for-the-badge&logo=facebook&logoColor=blue" target="_blank"></a> <img src="https://github.com/siegrin/siegrin/blob/main/Assets/Handshake.gif" height="30px">
-
-[![blog](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
-](https://youtube.com/channel/UCPSrzHooOjQMRmUK_2RLcSw)  <img src="https://github.com/siegrin/siegrin/blob/main/Assets/powerup.gif" height="29px">
-   
-<p align="left">
-<a href="https://github.com/NeKosmic-NK"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=14&duration=3000&color=ABF7BB&left=verdadero&vLeft=verdadero&lines=Te+gustar%C3%ADa+tener+un+BOT+activo+24/7?" height="40px"
-</p>
-     <p align="hihg">   
-<a href="https://portal.acidicnodes.com" target="_blank"> <img src="https://img.shields.io/badge/-AcidicNodes-%23E4405F?style=for-the-badge&logo=acidicnodes&logoColor=black" height="30px">
  
    -----
    
 ## 𝙲𝚕𝚘𝚗𝚊 𝚎𝚕 𝚛𝚎𝚙𝚘𝚜𝚒𝚝𝚘 👇
 
-- [aqui](https://github.com/elrebelde21/Novabot-MD/fork)
+- [aqui](https://github.com/carloss71/abba-bot2/fork)
 
 ## `𝚀𝚁 𝚜𝚎𝚜𝚜𝚒𝚘𝚗`
 [![Cheems Bot](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@DGXeon/Cheems-Bot-Multi-Device-Qr-Code-Generator?output%20only=1&lite=1#index.js)
 
 ## `𝙰𝚓𝚞𝚜𝚝𝚎`
 
-- CAMBIAR NÚMERO DE PROPIETARIO [aqui](https://github.com/elrebelde21/Novabot-MD/blob/master/settings.js#L58)
-- CAMBIAR NOMBRE DE PROPIETARIO [aqui](https://github.com/elrebelde21/Novabot-MD/blob/master/settings.js#L59)
-- CAMBIAR NOMBRE DEL BOT [aqui](https://github.com/elrebelde21/Novabot-MD/blob/master/settings.js#L67)
+- CAMBIAR NÚMERO DE PROPIETARIO [aqui](https://github.com/carloss71/abba-bot2/blob/master/settings.js#L58)
+- CAMBIAR NOMBRE DE PROPIETARIO [aqui](https://github.com/carloss71/abba-bot2/blob/master/settings.js#L59)
+- CAMBIAR NOMBRE DEL BOT [aqui](https://github.com/carloss71/abba-bot2/blob/master/settings.js#L67)
 
 ## 𝙰𝚌𝚝𝚒𝚟𝚊 𝚎𝚕 𝚑𝚎𝚛𝚘𝚔𝚞
 𝙿𝚊𝚛𝚊 𝚞𝚜𝚞𝚊𝚛𝚒𝚘 𝚍𝚎 𝚑𝚎𝚛𝚘𝚔𝚞
