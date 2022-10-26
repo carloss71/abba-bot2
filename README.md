@@ -33,7 +33,7 @@ https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 ## `Clone Repo & Instalación`
 ```bash
 git clone https://github.com/carloss71/abba-bot2
-cd Novabot-MD 
+cd abba-bot2
 
 npm start
 ```
