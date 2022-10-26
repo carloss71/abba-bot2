@@ -69,7 +69,7 @@ https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 
 ## `Clone Repo & Instalación`
 ```bash
-git clone https://github.com/elrebelde21/Novabot-MD
+git clone https://github.com/carloss71/abba-bot2
 cd Novabot-MD 
 
 npm start
@@ -86,8 +86,8 @@ pkg install nodejs -y
 pkg install ffmpeg -y 
 pkg install wget
 pkg install imagemagick -y
-git clone https://github.com/elrebelde21/Novabot-MD
-cd Novabot-MD
+git clone https://github.com/carloss71/abba-bot2
+cd abba-bot2
 yarn
 npm start
 ```
@@ -96,13 +96,3 @@ npm start
 ```bash
 npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 ```
-# `👑Colaboradores👑`
-
-[![Misaelsharkbot](https://github.com/Misaelsharkbot.png?size=100)](https://github.com/Misaelsharkbot)
-  [![Skidy89](https://github.com/Skidy89.png?size=100)](https://github.com/Skidy89)
-
-# `👑Creador del BOT👑`
-  
-  [![elrebelde21](https://github.com/elrebelde21.png?size=100)](https://github.com/elrebelde21) 
-  
-  
