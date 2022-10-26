@@ -10649,35 +10649,35 @@ case 'credit':
 reply(`┌──── hola  ${pushname} ✨ esto sos los que ayudaron al bot 
 gitbub del bot:
 
-https://github.com/elrebelde21/Novabot-MD-
+https://github.com/carloss71/abba-bot2
 
 YouTube
 
-https://youtube.com/channel/UC9b3UIVnVb5eQt7_Y-Qz-3A
+https://youtube.com/channel/UC9b3UIVnVbt7_Y-Qz-3A
 
 agracimiento al
 
-https://github.com/Misaelsharkbot
+https://github.com/carloss71
 
-https://github.com/Bottiocarlos
+https://github.com/carloss71
 └───────────●`)
 break
 case 'grupos': 
 	   if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
 reply(`estos sos los grupos oficiales de bot
-https://chat.whatsapp.com/Byyrc8RJnUkJw6vvUgsbDF
+https://chat.whatsapp.com/HzFMM8gqQ9WIjVHLnCWeMf
 
-https://chat.whatsapp.com/CFSvSOGCnuL3vk4Js1DWI2
+https://chat.whatsapp.com/HzFMM8gqQ9WIjVHLnCWeMf
 
-bot princess kiara 
-https://chat.whatsapp.com/HjXlhWfX1ECG11Lp5gH3Q2
+bot princess
+https://chat.whatsapp.com/HzFMM8gqQ9WIjVHLnCWeMf
 
-ஓீ͜ঔৣ͡🍒𝑪𝑬̈𝑹𝑬𝒁𝑨̈.𝑩Ø𝑻🔥ঔৣ͡ஓ
-https://chat.whatsapp.com/DCJclB8oBAPIAoleUtNEaN
+ஓீ͜ঔৣ͡🍒🔥ঔৣ͡ஓ
+https://chat.whatsapp.com/HzFMM8gqQ9WIjVHLnCWeMf
 
 ℂ𝔸𝕊𝕋𝕀ℕ𝔾 𝔻𝔼 𝕍𝕆ℤ (𝔹𝕆𝕋)
-https://chat.whatsapp.com/BMqdPDto6Uz5tFMMJVTrlO
+https://chat.whatsapp.com/HzFMM8gqQ9WIjVHLnCWeMf
 
 si quiere que tu grupo aparezca aca habla con el owner de bot`)
 break
