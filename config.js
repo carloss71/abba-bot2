@@ -32,35 +32,35 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.vcardowner = ['5492266466080'] 
-global.ownername = "░▒▓█►─═ 𝓝𝓸𝓿𝓪𝓫𝓸𝓽-ℳ𝓓 ═─◄█▓▒░"
+global.vcardowner = ['50763902442'] 
+global.ownername = "░▒▓█►─═ Abba-Bot ═─◄█▓▒░"
 global.ytname = "YT: a" 
-global.socialm = "GitHub: Novabot-MD" 
-global.location = "America, argentina" 
+global.socialm = "GitHub: carloss71" 
+global.location = "America, Panamà" 
 //__________________
-global.vcardowner1 = ['51935116539'] 
-global.ownername1 = "░▒▓█►─═ Misael ═─◄█▓▒░"
+global.vcardowner1 = ['35058586566'] 
+global.ownername1 = "░▒▓█►─═ Abba ═─◄█▓▒░"
 global.ytname1 = "YT: a" 
-global.socialm1 = "GitHub: Novabot-MD" 
-global.location1 = "America, argentina" 
+global.socialm1 = "GitHub: carloss71" 
+global.location1 = "America, panamà" 
 //__________________
-global.vcardowner2 = ['5218992059110'] 
-global.ownername2 = "░▒▓█►─═ tio carlos ═─◄█▓▒░"
+global.vcardowner2 = ['59894944449'] 
+global.ownername2 = "░▒▓█►─═ Abba ═─◄█▓▒░"
 global.ytname2 = "YT: a" 
-global.socialm2 = "GitHub: Novabot-MD" 
-global.location2 = "America, argentina" 
+global.socialm2 = "GitHub: carloss71" 
+global.location2 = "America, panamà" 
 
 //bot bomdy 
-global.owner = ['5492266466080' , '51935116539']
-global.ownertag = '5492266466080' 
-global.botname = '𝓝𝓸𝓿𝓪𝓫𝓸𝓽-ℳ𝓓' 
+global.owner = ['50763902442' , '35058586566']
+global.ownertag = '59894944449' 
+global.botname = 'Abba-Bot' 
 global.linkz = "https://youtube.com" 
 global.websitex = "https://youtube.com/" 
 global.botscript = 'https://github.com/Confusion' 
 global.reactmoji = "🤖" 
 global.themeemoji = "✅" 
 global.packname = " ‎𝘚𝘛𝘐𝘊𝘒𝘌𝘙  𝘉𝘠" 
-global.author = " ‎𝓝𝓸𝓿𝓪𝓫𝓸𝓽-ℳ𝓓"
+global.author = " ‎Abba-Bot"
 
 
 //Bot theme media
@@ -70,7 +70,7 @@ global.err4r = fs.readFileSync("./media/theme/cheemspic.jpg") //ur error pic
 global.thumb = fs.readFileSync("./media/theme/cheemspic.jpg") //ur thumb pic
 
 
-global.premium = ['56999448163'] 
+global.premium = ['35058586566'] 
 global.ntilinkytvid = []
 global.ntilinkytch = []
 global.ntilinkig = []
